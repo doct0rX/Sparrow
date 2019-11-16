@@ -2,5 +2,10 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorAccent">#fff</color>
+    <color name="dark">#2E1E4B</color>
+    <color name="hintColor">#808080</color>
+    <color name="wit">#fff</color>
+    <color name="green">#5BC473</color>
+    <color name="purple">#391275</color>
 </resources>
