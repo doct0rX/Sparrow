@@ -1,43 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextClock
-        android:id="@+id/textClock1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#593288"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:layout_marginLeft="70dp"
-        android:format12Hour="hh:mm:ss a"
-        android:textColor="#F1511B"
-        android:textSize="45dp"
-        android:textStyle="bold" />
-    <TextClock
-        android:id="@+id/textClock2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="100dp"
-        android:layout_below="@+id/textClock1"
-        android:textColor="#80CC28"
-        android:textSize="45dp"
-        android:textStyle="bold" />
-    <Button
-        android:id="@+id/btnGet"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textClock2"
-        android:layout_below="@+id/textClock2"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="40dp"
-        android:text="Get Time"/>
-    <TextView
-        android:id="@+id/textview1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/btnGet"
-        android:layout_below="@+id/btnGet"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="-30dp"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/logo"
+        android:src="@drawable/logo"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:layout_below="@+id/logo"
+        android:layout_above="@+id/bottom_navigation"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/bottom_navigation"
+        app:menu="@menu/bottom_navigation"
+        android:layout_alignParentBottom="true"
+        android:background="@color/darkbg"/>
+
 </RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#593288"
+    tools:context=".ui.fragments.FeedFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/darkbg"
+        android:layout_marginTop="50dp"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Local weather"
+            android:textColor="@color/wit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="+4"
+            android:textColor="@color/wit" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:src="@color/wit"
+            android:textColor="@color/wit" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/darkbg"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Road Conditions"
+            android:textColor="@color/wit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="moderate traffic"
+            android:textColor="@color/wit" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center"
+            android:src="@color/wit"
+            android:textColor="@color/wit" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@color/darkbg"
+        android:paddingStart="30dp"
+        android:padding="5dp"
+
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="traveller news"
+            android:textColor="@color/wit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:text="+mmsaf nfasnfkjan mdasn d
+            mdlaknsfdnas
+            fasmflkmnalkfnlkanf4"
+            android:textColor="@color/hintColor" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:text="+mmsaf nfasnfkjan mdasn d
+            mdlaknsfdnas
+            fasmflkmnalkfnlkanf4"
+            android:textColor="@color/hintColor" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
