@@ -5,6 +5,7 @@ import android.app.Activity;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
@@ -23,6 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.doct0rx.sparrow.R;
+import com.doct0rx.sparrow.ui.feedsActivities.FeedActivity;
 import com.doct0rx.sparrow.ui.login.LoginViewModel;
 import com.doct0rx.sparrow.ui.login.LoginViewModelFactory;
 
@@ -112,9 +114,13 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                loadingProgressBar.setVisibility(View.VISIBLE);
-                loginViewModel.login(usernameEditText.getText().toString(),
-                        passwordEditText.getText().toString());
+                // TODO: check the correct login data and start feed  activity
+//                loadingProgressBar.setVisibility(View.VISIBLE);
+//                loginViewModel.login(usernameEditText.getText().toString(),
+//                        passwordEditText.getText().toString());
+
+                Intent startFeedActivity = new Intent(LoginActivity.this, FeedActivity.class);
+                startActivity(startFeedActivity);
             }
         });
     }
