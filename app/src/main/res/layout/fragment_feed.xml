@@ -1,121 +1,249 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#593288"
-    android:orientation="vertical"
-    tools:context=".ui.fragments.FeedFragment">
+    android:background="#000000"
+    android:fillViewport="true">
 
-    <LinearLayout
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="50dp"
-        android:background="@color/darkbg"
-        android:orientation="horizontal"
-        android:padding="5dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="30dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            android:text="Local weather"
-            android:textColor="@color/wit" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:text="+4"
-            android:textColor="@color/wit" />
-
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="10dp"
-            android:gravity="center_vertical"
-            android:src="@color/wit"
-            android:textColor="@color/wit" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="30dp"
-        android:background="@color/darkbg"
-        android:orientation="horizontal"
-
-        android:padding="5dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginStart="30dp"
-            android:layout_weight="1"
-            android:gravity="center_vertical"
-            android:text="Road Conditions"
-            android:textColor="@color/wit" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical"
-            android:text="moderate traffic"
-            android:textColor="@color/wit" />
-
-        <ImageView
-            android:layout_width="15dp"
-            android:layout_height="15dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="10dp"
-            android:gravity="center_vertical"
-            android:src="@color/wit"
-            android:textColor="@color/wit" />
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="300dp"
-        android:layout_marginTop="30dp"
-        android:background="@color/darkbg"
+        android:layout_height="wrap_content"
+        android:background="#593288"
         android:orientation="vertical"
+        tools:context=".ui.fragments.FeedFragment">
 
-        android:padding="5dp"
-        android:paddingStart="30dp">
-
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Local weather"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="21.13 C"
+                android:textColor="@color/wit" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Humidity"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="31.0%"
+                android:textColor="@color/wit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Wind"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="6 m/s"
+                android:textColor="@color/wit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Acceleration X, Y, Z"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="549, -12, 1047"
+                android:textColor="@color/wit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="LED 22, 23, 24"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="HIGH, HIGH, LOW"
+                android:textColor="@color/wit" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="11dp"
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Battery Percentage"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="13dp"
+                android:gravity="center_vertical"
+                android:text="69%"
+                android:textColor="@color/wit" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:layout_marginTop="30dp"
-            android:text="traveller news"
-            android:textColor="@color/wit" />
+            android:background="@color/darkbg"
+            android:orientation="horizontal"
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center_vertical"
-            android:text="+mmsaf nfasnfkjan mdasn d
-            mdlaknsfdnas
-            fasmflkmnalkfnlkanf4"
-            android:textColor="@color/hintColor" />
+            android:padding="5dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center_vertical"
-            android:text="+mmsaf nfasnfkjan mdasn d
-            mdlaknsfdnas
-            fasmflkmnalkfnlkanf4"
-            android:textColor="@color/hintColor" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="30dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="Road Conditions"
+                android:textColor="@color/wit" />
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="moderate traffic"
+                android:textColor="@color/wit" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:src="@color/wit"
+                android:textColor="@color/wit" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/darkbg"
+            android:orientation="vertical"
+
+            android:padding="5dp"
+            android:paddingStart="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="traveller news"
+                android:textColor="@color/wit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="Police Begin National Traffic Surveillance Campaign Called Sober in pre-Christmas."
+                android:textColor="@color/hintColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:text="The First Snow Blankets Helsinki"
+                android:textColor="@color/hintColor" />
+
+        </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+</ScrollView>
