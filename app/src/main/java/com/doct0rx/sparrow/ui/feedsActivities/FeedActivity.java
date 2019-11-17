@@ -15,6 +15,7 @@ import androidx.fragment.app.Fragment;
 
 import com.doct0rx.sparrow.R;
 import com.doct0rx.sparrow.ui.fragments.FeedFragment;
+import com.doct0rx.sparrow.ui.fragments.MakeYourWayFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class FeedActivity extends AppCompatActivity {
@@ -39,7 +40,7 @@ public class FeedActivity extends AppCompatActivity {
                         break;
 
                     case R.id.nav_map:
-                        fragment = new FeedFragment();
+                        fragment = new MakeYourWayFragment();
                         break;
                     case R.id.nav_account:
                         fragment = new FeedFragment();
