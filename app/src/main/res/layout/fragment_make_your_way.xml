@@ -22,7 +22,7 @@
         android:text="Travel Faster" />
 
     <Button
-        android:id="@+id/TravelGreenerButton"
+        android:id="@+id/travelGreenerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Travel Greener" />
