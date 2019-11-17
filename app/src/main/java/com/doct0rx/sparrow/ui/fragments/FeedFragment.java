@@ -16,8 +16,8 @@ import com.doct0rx.sparrow.R;
  */
 public class FeedFragment extends Fragment {
 
-
     private View view;
+
     public FeedFragment() {
         // Required empty public constructor
     }

@@ -10,33 +10,57 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="21dp"
         android:layout_marginStart="31dp"
         android:text="I want to..."
         android:textColor="@android:color/white"
-        android:textSize="45sp" />
+        android:textSize="37sp" />
+
 
     <Button
         android:id="@+id/travelFasterButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Travel Faster" />
+        android:layout_gravity="center"
+        android:layout_marginVertical="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="#1E2D74"
+        android:text="Travel Faster"
+        android:textColor="@android:color/white" />
 
     <Button
-        android:id="@+id/TravelGreenerButton"
-        android:layout_width="wrap_content"
+        android:id="@+id/travelGreenerButton"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Travel Greener" />
+        android:layout_gravity="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="#4C7726"
+        android:text="Travel Greener"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/travelAroundButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Travel Around" />
+        android:layout_gravity="center"
+        android:layout_marginVertical="21dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="#882068"
+        android:text="Travel Around"
+        android:textColor="@android:color/white" />
 
     <Button
         android:id="@+id/visitAWonderlandButton"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Visit a Wonderland" />
+        android:layout_gravity="center"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:backgroundTint="#74391E"
+        android:text="Visit a Wonderland"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>
