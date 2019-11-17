@@ -24,11 +24,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.doct0rx.sparrow.R;
-import com.doct0rx.sparrow.ui.feedsActivities.FeedActivity;
-import com.doct0rx.sparrow.ui.fragments.FeedFragment;
-import com.doct0rx.sparrow.ui.fragments.MakeYourWayFragment;
-import com.doct0rx.sparrow.ui.login.LoginViewModel;
-import com.doct0rx.sparrow.ui.login.LoginViewModelFactory;
+import com.doct0rx.sparrow.ui.fragmentActivity.FragmentActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -121,7 +117,7 @@ public class LoginActivity extends AppCompatActivity {
 //                loginViewModel.login(usernameEditText.getText().toString(),
 //                        passwordEditText.getText().toString());
 
-                Intent startFeedActivity = new Intent(LoginActivity.this, FeedActivity.class);
+                Intent startFeedActivity = new Intent(LoginActivity.this, FragmentActivity.class);
                 startActivity(startFeedActivity);
             }
         });
