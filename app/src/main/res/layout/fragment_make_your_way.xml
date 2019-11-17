@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#593288"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.MakeYourWayFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="31dp"
+        android:text="I want to..."
+        android:textColor="@android:color/white"
+        android:textSize="45sp" />
+
+    <Button
+        android:id="@+id/travelFasterButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Faster" />
+
+    <Button
+        android:id="@+id/TravelGreenerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Greener" />
+
+    <Button
+        android:id="@+id/travelAroundButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Around" />
+
+    <Button
+        android:id="@+id/visitAWonderlandButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit a Wonderland" />
 
 </LinearLayout>
