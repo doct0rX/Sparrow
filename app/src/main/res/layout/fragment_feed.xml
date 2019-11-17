@@ -27,7 +27,7 @@
                 android:layout_marginStart="30dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:text="Local weather"
+                android:text="Weather"
                 android:textColor="@color/wit" />
 
             <TextView
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="13dp"
                 android:gravity="center_vertical"
-                android:text="21.13 C"
+                android:text="21 C"
                 android:textColor="@color/wit" />
 
 
